@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu_box {
+    ul {
+        display: flex;
+        gap: 10px;
+
+        li {
+            a {
+                display: inline-block;
+                text-decoration: none;
+                background-color: #fff;
+                width: 80px;
+                height: 35px;
+                border-radius: 5px;
+                text-align: center;
+                padding-top: 5px;
+            }
+
+            .link_btn {
+                background-color: crimson;
+                color: #fff;
+            }
+        }
+    }
+}
